@@ -3,4 +3,8 @@
 /processo_labs/Bucket/raw/yelp_academic_dataset_review
 /processo_labs/Bucket/raw/yelp_academic_dataset_tip
 /processo_labs/Bucket/raw/yelp_academic_dataset_user
-/processo_labs/Bucket/transient/*
+/processo_labs/Bucket/transient/yelp_academic_dataset_business.json
+/processo_labs/Bucket/transient/yelp_academic_dataset_checkin.json
+/processo_labs/Bucket/transient/yelp_academic_dataset_user.json
+/processo_labs/Bucket/transient/yelp_academic_dataset_tip.json
+/processo_labs/Bucket/transient/yelp_academic_dataset_review.json
