@@ -114,4 +114,4 @@ refined_sql = BashOperator(
          tips_trusted,
          reviews_trusted] 
          >> refined_sql
-            >> end)
+            >> end )
