@@ -20,7 +20,10 @@ default_args = {
         'retry_delay': timedelta(minutes=5),
 }
 
-dag = DAG('yelp_dag', default_args=default_args)
+dag = DAG('yelp_dag',
+          default_args=default_args,
+          max_active_runs=1,
+          schedule_interval="30 6 * * *",)
 
 start = DummyOperator(task_id="Start", dag=dag)
 end = DummyOperator(task_id="End", dag=dag)
